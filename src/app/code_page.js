@@ -104,3 +104,84 @@ export default function Home() {
             </ul>
           </div>
         </section>
+
+<section className="mt-8">
+          <h2 className="border-b border-gray-200 pb-2 text-xl font-bold uppercase tracking-wide">
+            Volunteer Experience
+          </h2>
+
+          <div className="mt-4">
+            <div className="flex flex-col justify-between gap-1 sm:flex-row">
+              <h3 className="font-semibold">
+                Wiregrass Elementary School – Classroom & Administrative
+                Volunteer
+              </h3>
+              <p className="text-sm text-gray-600">Aug 2017 – May 2023</p>
+            </div>
+            <ul className="mt-2 list-disc space-y-1 pl-6 text-gray-700">
+              <li>
+                Supported classroom workflow and assisted with organizing
+                instructional materials.
+              </li>
+              <li>
+                Supported front office administrative tasks and data-related
+                projects.
+              </li>
+              <li>
+                Assisted the school clinic by helping students with basic needs,
+                including providing ice packs and supporting staff with routine
+                student care.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="mt-8">
+          <h2 className="border-b border-gray-200 pb-2 text-xl font-bold uppercase tracking-wide">
+            Extracurricular Activities
+          </h2>
+
+          <div className="mt-4">
+            <div className="flex flex-col justify-between gap-1 sm:flex-row">
+              <h3 className="font-semibold">
+                Odyssey of the Mind – Competitive Team Member
+              </h3>
+              <p className="text-sm text-gray-600">Aug 2016 – May 2022</p>
+            </div>
+            <ul className="mt-2 list-disc space-y-1 pl-6 text-gray-700">
+              <li>
+                Applied analytical reasoning and creative problem-solving to
+                open-ended challenges.
+              </li>
+              <li>
+                Collaborated with team members to design and test solutions
+                under time and resource constraints.
+              </li>
+              <li>
+                Advanced to State and World-level competitions (2021–2022).
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="mt-8">
+          <h2 className="border-b border-gray-200 pb-2 text-xl font-bold uppercase tracking-wide">
+            Skills
+          </h2>
+          <div className="mt-4 space-y-2 text-gray-700">
+            <p>
+              <span className="font-semibold">Technical Skills:</span> Tableau |
+              Microsoft Excel (formulas, PivotTables) | Python | Microsoft
+              Office
+            </p>
+            <p>
+              <span className="font-semibold">Professional Skills:</span>{" "}
+              Analytical Thinking | Attention to Detail | Adaptability | Team
+              Collaboration | Problem-Solving
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+  );
+}
